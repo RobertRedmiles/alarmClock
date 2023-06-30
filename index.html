@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Clock</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <body>
+        <div>
+            <span id="box"></span>
+        </div>
+
+        <div id="alarm">Alarm Clock</div>
+      
+        <div id="myClock"></div>
+
+        <div id="timeInputs">
+            <input type="number" id="hourInput" placeholder="Hour">
+            <input type="number" id="minuteInput" placeholder="Minutes">
+            <input type="number" id="secondsInput" placeholder="Seconds">
+            <input type="checkbox" id="AM-PM">
+            <label>PM?</label>
+        </div>
+
+        <div>
+            <button id="set_button" onclick="setAlarm()">Set</button>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

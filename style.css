@@ -1,0 +1,29 @@
+span {
+    padding:350px;
+    border:1px solid black;
+ 
+}
+#myClock {
+    font-size: 85pt;
+    text-align: left;
+    margin: 0 70px;
+}
+
+#alarm {
+    font-size: 60pt;
+    text-align: left;
+    margin: 0 140px;
+    color: dimgrey;
+}
+
+#set_button {
+    cursor: pointer;
+    padding: 20px;
+    margin: 0 300;
+    background-color: orange;
+    border-color: dimgray;
+}
+
+#timeInputs {
+    margin: 0 100;
+}
